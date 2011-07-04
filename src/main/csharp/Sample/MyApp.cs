@@ -21,7 +21,7 @@ namespace Sample
 {
     class MyApp
     {
-        MyApp()
+        public MyApp()
         {
             Console.WriteLine("Hello");
         }
