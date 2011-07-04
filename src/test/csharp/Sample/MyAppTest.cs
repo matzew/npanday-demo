@@ -20,21 +20,21 @@ using NUnit.Framework;
 namespace Sample
 {
 
-	[TestFixture]
-	public class MyAppTest
-	{
+    [TestFixture]
+    public class MyAppTest
+    {
 
-		[SetUp]
-		protected void SetUp()
-		{
-		}
+        [SetUp]
+        protected void SetUp()
+        {
+        }
 
-		[Test]
-		public void TestSample()
-		{
+        [Test]
+        public void TestSample()
+        {
            MyApp2 ma2 = new MyApp2();
            MyApp ma = new MyApp();
-		}
-	}
+        }
+    }
 }
 
