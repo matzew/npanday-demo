@@ -19,7 +19,7 @@ using System.IO;
 
 namespace Sample
 {
-    class MyApp
+    internal class MyApp
     {
         public MyApp()
         {
