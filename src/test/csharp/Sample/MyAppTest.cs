@@ -32,6 +32,7 @@ namespace Sample
 		[Test]
 		public void TestSample()
 		{
+           MyApp2 ma2 = new MyApp2();
            MyApp ma = new MyApp();
 		}
 	}
