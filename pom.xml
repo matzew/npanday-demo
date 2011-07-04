@@ -52,7 +52,11 @@ under the License.
           <version>1.4.0-incubating</version>
           <extensions>true</extensions>
           <configuration>
+            <keyfile>demo.snk</keyfile> 
             <define>DOTNET</define>
+            <includeSources>
+              <includeSource>Properties/AssemblyInfo.cs</includeSource>	
+            </includeSources>
           </configuration>
           <executions>
             <execution>
