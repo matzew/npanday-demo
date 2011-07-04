@@ -52,11 +52,21 @@ under the License.
           <version>1.4.0-incubating</version>
           <extensions>true</extensions>
           <configuration>
+
+
+            <!-- created 'demo.snk' with "sn -k demo.snk" cmd. -->
             <keyfile>demo.snk</keyfile> 
+
             <define>DOTNET</define>
+
+
+            <!-- tell NPanday to include the AssemblyInfo file -->
             <includeSources>
               <includeSource>Properties/AssemblyInfo.cs</includeSource>	
             </includeSources>
+
+
+
           </configuration>
           <executions>
             <execution>
